@@ -1,9 +1,9 @@
 ## Electronic Rituals, Oracles and Fortune Telling
 
-Meditation 4
+Meditation 4<br>
 Assignment: Create a psychic “experiment” with your interpretation of an electronic equivalent of Zener Cards. Document your methodology and your results. (What is it possible to be “psychic” about in a digital context?)
 
-Implementation: This project is my interpretation of extrasensory perception séance using color cards and sound. There are 20 prerecorded tones, where each tone is assigned to a particular color. A user is supposed to sense the sound and guess which tone represents the correct color card. After every turn, a new tone is being randomly selected.
+Implementation: This project is my interpretation of extrasensory perception séance using color cards and audio. There are 20 prerecorded tones, where each tone is assigned to a particular color. A user is supposed to sense the sound and guess which tone represents the correct color card. After every turn, a new tone is being randomly selected. First, user clicks on PLAY button to hear the tone, then he/she should select the appropriate color card․ There are two counters that keep turns and correct answers. After the test is over user gets the result.   
 
 ---------------------------------
 
