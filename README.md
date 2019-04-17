@@ -11,7 +11,7 @@ As an addition a custom random function is implemented which is to replace javas
 
 I use user mouse coordinates as a source of ramdom data. After some math operations randInRange() function is called to get an integer number from range [min, max]. Later this value is used in the program to ramdonly select a tune from the array.
 
-function randInRange(seed, min, max) {<br>
+<i>function randInRange(seed, min, max) {<br>
   return seed % (max + 1 - min) + min;<br>
 }<br>
 document.addEventListener("mousemove", function(event){<br>
@@ -22,3 +22,4 @@ document.addEventListener("mousemove", function(event){<br>
   totalXY += mouseX + mouseY;<br>
   seed = parseInt(((totalXY * totalXY) / 100 ) % 10000) ;<br>
 });<br>
+</i>
